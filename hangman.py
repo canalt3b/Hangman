@@ -9,9 +9,7 @@ while True:
     print()
 
     letra = input('Entre com uma letra: ')
-    if letra in palavra:
-        pos = pega_pos(letra)
-        print(f'SIM {pos}')
-    else:
-        print('NÃO')
+
+
+# somente para teste
 
