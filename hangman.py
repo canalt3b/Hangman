@@ -1,26 +1,19 @@
-import pygame
+'''palavra = 'banana'
 
-# pygame setup
-pygame.init()
-screen = pygame.display.set_mode((1280, 720))
-clock = pygame.time.Clock()
-running = True
+def pega_pos(letra):
+    return palavra.find(letra)
 
-while running:
-    # poll for events
-    # pygame.QUIT event means the user clicked X to close your window
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
+while True:
+    for n in range(len(palavra)):
+        print('_', end =' ')
+    print()
 
-    # fill the screen with a color to wipe away anything from last frame
-    screen.fill("purple")
+    letra = input('Entre com uma letra: ')
+    if letra in palavra:
+        pos = pega_pos(letra)
+        print(f'SIM {pos}')
+    else:
+        print('NÃO')'''
 
-    # RENDER YOUR GAME HERE
-
-    # flip() the display to put your work on screen
-    pygame.display.flip()
-
-    clock.tick(60)  # limits FPS to 60
-
-pygame.quit()
+p = 'TestE'
+print(p.lower())
