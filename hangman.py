@@ -1,4 +1,4 @@
-'''palavra = 'banana'
+palavra = 'banana'
 
 def pega_pos(letra):
     return palavra.find(letra)
@@ -13,7 +13,5 @@ while True:
         pos = pega_pos(letra)
         print(f'SIM {pos}')
     else:
-        print('NÃO')'''
+        print('NÃO')
 
-p = 'TestE'
-print(p.lower())
