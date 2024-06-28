@@ -1,4 +1,4 @@
-palavra = 'banana'
+palavra = 'laranja'
 
 def pega_pos(letra):
     return palavra.find(letra)
